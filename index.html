@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body >
+
+    <div class="container" id="quizContainer">
+      <div class="title">Computer Quiz</div>
+      <div class="question" id="question"></div>
+      <label class="option"><input type="radio" name="option" value="1"><span id="opt1"></span></label>
+      <label class="option"><input type="radio" name="option" value="2"><span id="opt2"></span></label>
+      <label class="option"><input type="radio" name="option" value="3"><span id="opt3"></span></label>
+      <label class="option"><input type="radio" name="option" value="4"><span id="opt4"></span></label>
+      <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+    </div>
+    <div id="result" class="container result" style="display:none;">
+		</div>
+    <script src="js/question.js"></script>
+		<script src="js/quiz-script.js"></script>
+ </body>
+</html>
